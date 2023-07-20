@@ -1,0 +1,65 @@
+.steps {
+    padding: 0 454px 0 182px;
+    height: 465px;
+    position: relative;
+    &_cont {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 100px;
+        padding-left: 125px;
+        &_text {
+            color: #01A3A4;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 3.5px;
+            text-transform: uppercase;
+        }
+        &_img {
+            width: 48px;
+            height: 5px;
+        }
+    }
+    &_wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: -100px;
+        &_img {
+            width: 123.04px;
+            height: 103.874px;
+        }
+        &_text {
+            width: 1056px;
+            color: #000;
+            font-family: Bebas Neue;
+            font-size: 96px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+    &_text {
+        margin-left: 720px;
+        margin-top: -100px;
+        text-align: center;
+        font-family: Galada;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background: var(--1, linear-gradient(141deg, #74E6CF 0%, #C0E594 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &_line {
+        display: flex;
+        position: absolute;
+        left: 1500px;
+        top: 70px;
+    }
+}

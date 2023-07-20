@@ -1,0 +1,213 @@
+.review {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    max-height: 860px;
+    padding: 0 352px 0 323px;
+    
+    &_header {
+        padding-top: 100px;
+        color: #01A3A4;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 3.5px;
+        text-transform: uppercase;
+    }
+    &_subheader {
+        margin-top: -5px;
+        color: #000;
+        font-family: Bebas Neue;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &_images {
+        position: relative;
+    }
+    &_clientPhoto {
+        position: relative;
+        z-index: 2;
+    }
+    &_clientPhoto26 {
+        position: absolute;
+        z-index: 3;
+        top: 50px;
+        left: 4px;
+    }
+    &_clientPhoto28 {
+        position: absolute;
+        z-index: 3;
+        top: 260px;
+        left: -80px;
+    }
+    &_clientPhoto13 {
+        position: absolute;
+        z-index: 3;
+        top: 50px;
+        left: 358px;
+    }
+    &_clientPhoto25 {
+        position: absolute;
+        z-index: 3;
+        top: 210px;
+        left: 410px;
+    }
+    &_ellipse15 {
+        position: absolute;
+        z-index: 2;
+        top: 40px;
+        left: 348px;
+    }
+    &_ellipse14 {
+        position: absolute;
+        z-index: 3;
+        top: 410px;
+        left: 270px;
+    }
+    &_ellipse18 {
+        position: absolute;
+        z-index: 1;
+        top: 400px;
+        left: 50px;
+    }
+    &_wave {
+        position: absolute;
+        z-index: 3;
+        top: 180px;
+        left: 4px;
+        z-index: 1;
+    }
+    &_vector {
+        position: absolute;
+        z-index: 3;
+        top: 230px;
+        left: -130px;
+    }
+    &_backtick {
+        position: absolute;
+        z-index: 3;
+        top: -130px;
+        left: -340px;
+    }
+    &_ellipse155 {
+        position: absolute;
+        z-index: 3;
+        top: 610px;
+        left: -190px;
+    }
+    &_ellipse144 {
+        position: absolute;
+        top: 550px;
+        left: -290px;
+    }
+    &_ellipse25 {
+        position: absolute;
+        left: 1350px;
+        z-index: 3;
+    }
+    &_lineWorm {
+        position: absolute;
+        left: 1350px;
+        z-index: 2;
+
+    }
+
+    .message_wrapper {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 280px;
+        right: 410px;
+        padding: 0 0 0 97px;
+        padding-top:10px;
+        .message_header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 300px;
+
+            
+            &_general {
+                order: 1;
+                color: #000;
+                font-family: Bebas Neue;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 1.2px;
+            }
+            &_stars {
+                display: flex;
+                flex-direction: row;
+                order: 2;
+                width: 16px;
+                height: 16px;
+            }
+        }
+        .message_descr {
+            display: flex;
+            flex-direction: column;
+            width: 550px;
+            &_wave {
+                width: 60px;
+                height: 5px;
+            }
+            &_first {
+                padding-top: 20px;
+                color: #696969;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 180%;
+            }
+            &_second {
+                color: #696969;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 180%;
+                &_invisible {
+                    text-transform: lowercase;
+                    background: #C4C4C4;
+                    opacity: 0.3;
+
+                }
+            }
+            &_buttons{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 15px;
+                position: relative;
+            }
+            &_btnLeft {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 22px;
+                height: 22px;
+                flex-shrink: 0;
+                border-radius: 50px;
+                background: linear-gradient(297deg, #74E6CF 0%, #C0E594 100%);
+            }
+            &_btnRight {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 22px;
+                height: 22px;
+                flex-shrink: 0;
+                border-radius: 50px;
+                background: linear-gradient(297deg, #74E6CF 0%, #C0E594 100%);
+            }
+
+        }
+    }
+}

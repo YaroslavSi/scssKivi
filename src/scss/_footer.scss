@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    max-height: 190px;
+    padding: 70px 350px;
+    .footer_wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer_logo {
+        padding: 0 306px 0 323px;
+    }
+    .footer_social {
+        display: flex;
+        gap: 20px;
+    }
+}

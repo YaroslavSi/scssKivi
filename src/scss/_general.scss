@@ -1,0 +1,251 @@
+.general {
+    height: 940px;
+    background: var(--2, linear-gradient(159deg, #FECA57 0%, #E3AA2D 100%));
+    padding: 70px 0 70px 0;
+    h1 {
+        color: #212121;
+        text-align: center;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 700px;
+        line-height: normal;
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+    }
+    h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: Galada;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400px;
+        line-height: normal;
+    }
+    &_subtittle_one {
+        padding-left: 500px;
+        margin-top: -85px;
+    }
+    &_subtittle_two {
+        margin-top: -100px;
+        padding-left: 730px;
+    }
+    .list_items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
+        &_q {
+            position: absolute;
+            left: 80px;
+            width: 270px;
+            height: 170px;
+            z-index: 9;
+        }
+        &_r {
+            position: absolute;
+            left: 90px;
+            width: 250px;
+            height: 250px;
+            z-index: 6;
+        }
+        &_w {
+            position: absolute;
+            left: 108px;
+            top: 90px;
+            width: 53px;
+            height: 53px;
+            z-index: 7;
+            fill: linear-gradient(180deg, #74E6CF 0%, #C0E594 100%);
+
+        }
+        &_e {
+            position: relative;
+            left: -5600px;
+            top: -100px;
+            width: 49px;
+            height: 49px;
+            z-index: 10;
+            fill: linear-gradient(155deg, #FCDDA9 0%, #FDBABA 100%);
+        }
+        &_t {
+            position: absolute;
+            left: 275px;
+            width: 508px;
+            height: 318px;
+            transform: rotate(15.146deg);
+            z-index: 9;
+            flex-shrink: 0;
+        }
+        &_u {
+            position: absolute;
+            left: 420px;
+            z-index: 7;
+        }
+        &_y {
+            position: absolute;
+            top: -150px;
+            left: 340px;
+            width: 66px;
+            height: 66px;
+        }
+        &_box {
+            position: absolute;
+            z-index: 9;
+            left: 725px;
+            width: 408px;
+            height: 325px;
+            transform: rotate(4.181deg);
+        }
+        // &_leafB {
+        //     position: absolute;
+        //     // left: 0px;
+        //     z-index: 10;
+        //     width: 216px;
+        //     height: 138px;
+        //     // transform: rotate(124.532deg);
+
+        // }
+        &_leafC {
+            position: absolute;
+            z-index: 8;
+            left: 760px;
+            width: 490px;
+            height: 340px;
+        }
+        &_shadow {
+            position: absolute;
+            padding-top: 350px;
+            left: 620px;
+            width: 587px;
+            height: 77px;
+            transform: rotate(2.676deg);
+            z-index: 5;
+        }
+        &_elipse19 {
+            position: absolute;
+            left: 1025px;
+            top: 42px;
+            width: 59px;
+            height: 40px;
+            z-index: 10;
+        }
+        &_elipse26 {
+            position: absolute;
+            width: 66px;
+            height: 66px;
+            z-index: 7;
+            top: -160px;
+            left: 830px
+        }
+        &_packet {
+            position: absolute;
+            z-index: 7;
+            width: 620px;
+            height: 400px;
+            left: 1100px;
+            top: -230px;
+
+        }
+        &_elipse23 {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            z-index: 6;
+            left: 1270px;
+        }
+        &_honey {
+            position: absolute;
+            width: 350px;
+            height: 200px;
+            left: 1550px;
+            z-index: 8;
+        }
+        &_elipse22 {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            z-index: 6;
+            left: 1620px;
+        }
+        &_elipse14 {
+            position: absolute;
+            width: 82px;
+            height: 82px;
+            z-index: 6;
+            left: 1620px;
+            top: 100px;
+        }
+        &_elipse18 {
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            z-index: 6;
+            left: 1620px;
+            top: -130px;
+        }
+        &_elipse1 {
+            position: absolute;
+            width: 34px;
+            height: 34px;
+            z-index: 6;
+            left: 1780px;
+            top: -130px;
+        }
+        &_vector1 {
+            position: absolute;
+            top: 40px;
+            width: 450px;
+            height: 210px;
+            left: 300px;
+            transform: rotate(10deg);
+        }
+        &_vector2 {
+            position: absolute;
+            width: 164px;
+            height: 67.542px;
+            left: 600px;
+            top: -150px;
+            transform: rotate(335deg);
+        }
+        &_vector3 {
+            position: absolute;
+            width: 164px;
+            height: 67.542px;
+            left: 1100px;
+            top: 130px;
+            transform: rotate(360deg);
+        }
+        &_vector4 {
+            position: absolute;
+            width: 403.288px;
+            height: 302.633px;
+            transform: rotate(360deg);
+            top: 70px;
+            left: 1100px;
+        }
+        
+    }
+    .general_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 350px;
+        margin-left: 770px;
+        width: 280px;
+        height: 70px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #01A3A4;
+        color: #FFF;
+        text-align: center;
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        border: none;
+    
+    }
+}
+    

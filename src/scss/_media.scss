@@ -1,0 +1,136 @@
+@media (min-width: 320px) and (max-width: 660px) {
+    .App_header {
+        height: 60px;
+        .menu {
+            padding: 0;
+            &_item {
+                padding: 0;
+                
+                &-link {
+                    display: none;
+                }
+                &_logo {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    padding: 5px 0 5px 16px;
+                }
+            }
+        }
+        .menu_item_logo {
+            width: 96px;
+            height: 50px;
+        }
+    }
+    .general {
+        max-height: 400px;
+        padding: 20px 0 20px 0;
+    
+        
+        h1 {
+            font-size: 32px;
+        }
+        h2 {
+            font-size: 26px;
+        }
+        &_subtittle_one {
+            padding-left: 1px;
+            margin-top: -20px;
+            text-align: center;
+        }
+
+        .list_items {
+
+            &_q {
+                top: -120px;
+                left: 16px;
+                width: 66px;
+                height: 66px;
+            }
+            &_r {
+                top: -120px;
+                left: 16px;
+                width: 66px;
+                height: 66px;
+            }
+            &_t {
+                top: -120px;
+                left: 80px;
+                width: 72px;
+                height: 74px;
+            }
+            &_y {
+                top: -120px;
+                left: 100px;
+                width: 66px;
+                height: 66px;
+            }
+            &_packet {
+                width: 66px;
+                height: 66px;
+            }
+            &_elipse23 {
+                width: 66px;
+                height: 66px;
+            }
+            &_honey {
+                width: 66px;
+                height: 66px;
+            }
+            &_elipse22 {
+                width: 66px;
+                height: 66px;
+            }
+        }
+        
+    }
+    .work_list {
+        flex-direction: column;
+        padding: 30px 16px 30px 16px;
+        gap: 1px;
+    }
+    .second_button {
+        padding-top: 1px;
+    }
+
+    .box {
+        flex-direction: column-reverse;
+        padding: 50px 16px 26px 16px;
+        .box_fly_first {
+            display: none;
+        }
+        .box_fly_second {
+            display: none;
+        }
+        .box_fly_third {
+            display: none;
+        }
+        .box_fly_staticF {
+            width: 175.124px;
+            height: 263px;
+            left: 20px;
+
+        }
+        .box_fly_staticS {
+            width: 175.124px;
+            height: 263px;  
+            left: 200px;
+        }
+
+        &_card {
+            margin-left: 1px;
+            width: 280px;
+            &_container {
+                flex-direction: column;
+            }
+            &_tittle {
+                font-size: 24px;
+            }
+            &_descr {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+// @media (max-width: 1440px)

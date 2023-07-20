@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Galada&family=Roboto:wght@300;400;700&display=swap');
+@import './general.scss';
+@import './navigator';
+@import './buttons';
+@import './work';
+@import './box';
+@import './steps';
+@import './post';
+@import './new';
+@import './sign';
+@import './review';
+@import './footer';
+@import './creators';
+@import './popup';
+@import './media';
+
+* {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}

@@ -1,0 +1,77 @@
+.new {
+    height: 829px;
+    padding: 0 350px;
+    &_tittle {
+        padding-top: 100px;
+        color: #000;
+        text-align: center;
+        font-family: Bebas Neue;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        gap: 28px;
+        padding-top: 25px;
+        &_background {
+            position: absolute;
+            z-index: 4;
+        }
+        .new_list {
+            display: flex;
+            flex-direction: column;
+            z-index: 5;
+            align-items: center;
+            
+            &_line {
+                display: flex;
+                margin-left: -250px;
+                padding-top: 30px;
+            }
+            &_header {
+                padding-top: 42px;
+                width: 307px;
+                color: #000;
+                font-family: Bebas Neue;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 1.2px;
+            }
+            &_subheader {
+                padding-top: 30px;
+                width: 307px;
+                color: #696969;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+            }
+            &_button {
+                margin-left: 140px;
+                margin-top: 37px;
+                width: 112px;
+                height: 30px;
+                flex-shrink: 0;
+                border-radius: 50px;
+                background: #01A3A4;
+                color: #FFF;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.6px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

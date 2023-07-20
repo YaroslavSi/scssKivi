@@ -1,0 +1,58 @@
+.work .tittle {
+    text-align: center;
+    margin-top: 95px;
+    font-family: Bebas Neue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.work_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 391px 0px 391px;
+    gap: 269px;
+    
+    &_item {
+        display: flex;
+        width: 282px;
+        flex-direction: column;
+        
+        // justify-content: center;
+        // align-items: center;
+        // padding-left: 269px;
+
+        
+    }
+    .main_descr {
+        padding-top: 40px;
+        color: #000;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.2px;
+    }
+    .second_descr {
+        padding-top: 20px;
+        color: #696969;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; 
+    }
+    
+}
+
+.second_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}

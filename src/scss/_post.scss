@@ -1,0 +1,61 @@
+.post {
+    height: 821px;
+    background: #F0F8F6;
+    padding: 0 297px 0 283px;
+    &_first {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        color: #01A3A4;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 3.5px;
+        text-transform: uppercase;
+    }
+    &_second {
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+        color: #000;
+        font-family: Bebas Neue;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .gri {
+        display: grid; 
+        grid-template-columns: 250px 250px 490px 245px; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 8px 8px; 
+        grid-template-areas: 
+            "first third fifth six"
+            "second fouth fifth seven"; 
+    }
+    .first { grid-area: first; }
+    .second { grid-area: second; }
+    .third { grid-area: third; }
+    .fouth { grid-area: fouth; }
+    .fifth { grid-area: fifth; }
+    .six { grid-area: six; }
+    .seven { grid-area: seven; }
+
+    &_photo_inst {
+        position: relative;
+        top: -450px;
+        left: -50px;
+    }
+    &_photo_elipse22 {
+        position: relative;
+        top: -880px;
+        left: -120px;
+    }
+    &_photo_elipse21 {
+        position: relative;
+        top: -895px;
+        left: 1075px;
+    }
+}
