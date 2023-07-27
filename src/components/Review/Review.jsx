@@ -47,7 +47,7 @@ const Review = (props) => {
 
                 <div className="message_wrapper">
                     <div className="message_header">
-                        <h2 className="message_header_general">Jessica T.</h2>
+                        <h2 className="message_header_general">Jessica</h2>
                         <div className="message_header_stars">
                             <img src={reviewStar} alt="" className="message_header_stars_star" />
                             <img src={reviewStar} alt="" className="message_header_stars_star" />

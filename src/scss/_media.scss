@@ -23,12 +23,11 @@
         }
     }
     .general {
-        max-height: 400px;
+        max-height: 500px;
         padding: 20px 0 20px 0;
-    
-        
         h1 {
             font-size: 32px;
+            letter-spacing: 1.6px;
         }
         h2 {
             font-size: 26px;
@@ -40,50 +39,157 @@
         }
 
         .list_items {
+            display: flex;
+            justify-content: center;
+            top: 0px;
+            flex-wrap: wrap;
+            gap: 12px;
 
             &_q {
-                top: -120px;
-                left: 16px;
+                position: absolute;
+                top: 0;
+                left: 18%;
                 width: 66px;
                 height: 66px;
             }
             &_r {
-                top: -120px;
-                left: 16px;
+                order: 1;
+                position: relative;
+                top: 0;
+                left: 0;
                 width: 66px;
                 height: 66px;
+                margin-left: -13%;
             }
             &_t {
-                top: -120px;
-                left: 80px;
+                position: absolute;
+                top: 0px;
+                left: 34%;
                 width: 72px;
                 height: 74px;
             }
             &_y {
-                top: -120px;
-                left: 100px;
+                display: none;
+            }
+            &_u {
+                order: 2;
+                position: relative;
+                top: 0;
+                left: 0;
                 width: 66px;
                 height: 66px;
             }
             &_packet {
+                position: absolute;
+                top: 0px;
+                left: 52%;
                 width: 66px;
                 height: 66px;
             }
             &_elipse23 {
+                order: 3;
+                position: relative;
+                top: 0px;
+                left: 0px;
                 width: 66px;
                 height: 66px;
             }
             &_honey {
+                position: absolute;
+                top: 0px;
+                left: 67%;
                 width: 66px;
                 height: 66px;
             }
             &_elipse22 {
+                order: 4;
+                position: relative;
+                top: 0px;
+                left: 0px;
                 width: 66px;
                 height: 66px;
             }
+            &_box {
+                order: 5;
+                position: relative;
+                z-index: 9;
+                left: 0;
+                width: 227px;
+                height: 182px;
+                transform: rotate(4.181deg);
+            }
+            &_leafC {
+                position: absolute;
+                z-index: 8;
+                top: 30%;
+                left: 55%;
+                width: 78.479px;
+                height: 167.84px;
+            }
+            &_shadow {
+                display: none;
+            }
+            &_w {
+                position: absolute;
+                left: 40%;
+                top: 30%;
+                width: 19.766px;
+                height: 19.766px;
+            }
+            &_elipse19 {
+                position: absolute;
+                left: 63%;
+                top: 72%;
+                width: 19px;
+                height: 13px;
+                z-index: 10;
+            }
+            &_elipse18 {
+                position: absolute;
+                width: 48px;
+                height: 48px;
+                left: 55%;
+                top: 35%;
+            }
+            &_elipse14 {
+                position: absolute;
+                width: 42px;
+                height: 43px;
+                left: 20%;
+                top: 30%;
+            }
+            &_elipse1 {
+                display: none;
+            }
+            &_elipse26 {
+                display: none;
+            }
+            &_vector1 {
+                display: none;
+            }
+            &_vector2 {
+                display: none;
+            }
+            &_vector3 {
+                display: none;
+            }
+            &_vector4 {
+                display: none;
+            }
         }
-        
+        .general_button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // position: relative;
+            width: 288px;
+            height: 60px;
+            font-size: 24px;
+            margin-top: 40px;
+            margin-left: 20%;
+        }
     }
+    
     .work_list {
         flex-direction: column;
         padding: 30px 16px 30px 16px;
@@ -94,8 +200,18 @@
     }
 
     .box {
-        flex-direction: column-reverse;
-        padding: 50px 16px 26px 16px;
+        justify-content: center;
+        max-height: 750px;
+        flex-direction: column;
+        padding: 0 16px;
+
+        &_fly {
+            display: flex;
+            gap: 30px;
+            padding-top: 18px;
+            order: 5;
+            
+        }
         .box_fly_first {
             display: none;
         }
@@ -106,29 +222,349 @@
             display: none;
         }
         .box_fly_staticF {
-            width: 175.124px;
+            position: relative;
+            left: 0;
+            padding-top: 0;
+            width: 200px;
             height: 263px;
-            left: 20px;
+            border-radius: 20%;
 
         }
         .box_fly_staticS {
-            width: 175.124px;
-            height: 263px;  
-            left: 200px;
+            position: relative;
+            left: 0;
+            padding-top: 0;
+            width: 200px;
+            height: 263px;
+            border-radius: 20%;
         }
 
         &_card {
-            margin-left: 1px;
-            width: 280px;
+            display: flex;
+            margin-left: 0;
+            margin: 0 auto;
+            max-width: 273px;
+            justify-content: center;
             &_container {
+                justify-content: center;
                 flex-direction: column;
             }
             &_tittle {
+                padding-top: 20px;
+                order: 2;
                 font-size: 24px;
+                font-family: Advent Pro;
+            }
+            &_line {
+                padding-top: 50px;
+                order: 1;
             }
             &_descr {
                 font-size: 14px;
+                order: 3;
+                width: 268px;
+                text-align: center;
             }
+            &_fly {
+                display: none;
+            }
+            &_btn {
+                position: relative;
+                margin-top: 20px;
+            }
+            &_wrapperButton {
+                display: flex;
+
+                order: 6;
+            }
+        }
+    }
+
+    .steps {
+        padding: 54px 16px 30px 16px;
+        max-height: 400px;
+        &_cont {
+            flex-direction: column;
+            padding-top: 54px;
+            padding-left: 0;
+            justify-content: center;
+            &_text {
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 1.2px;
+            }
+            &_img {
+                width: 48px;
+            }
+        }
+        &_wrap {
+            margin-top: 20px;
+            flex-direction: column;
+            &_img {
+                order: 3;
+                width: 76px;
+                height: 76px;
+            }
+            &_text {
+                order: 1;
+                width: 288px;
+                text-align: center;
+                font-size: 32px;
+            }
+        }
+        &_text {
+            display: flex;
+            justify-content: center;
+            margin-left: 1px;
+            margin-top: 1px;
+            font-size: 26px;
+            order: 2;
+        }
+        &_line {
+            display: none;
+        }
+    }
+
+    .post {
+        max-height: 444px;
+        padding: 50px 12px 14px 14px;
+        &_first {
+            display: flex;
+            padding-top: 1px;
+            width: 228px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 12px;
+            letter-spacing: 1.2px;
+        }
+        &_second {
+            font-family: Advent Pro;
+            font-size: 24px;
+        }
+        .gri {
+            place-items: center;
+            grid-template-columns: 150px 150px; 
+            grid-template-rows: 1fr 1fr; 
+            gap: 2px 2px;
+            grid-template-areas: 
+                "first third"
+                "second fouth"; 
+            &_photo_img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+        .first { grid-area: first; }
+        .second { grid-area: second; }
+        .third { grid-area: third; }
+        .fouth { grid-area: fouth; }
+        .fifth {
+            display: none;
+        }
+        .six {
+            display: none;
+        }
+        .seven {
+            display: none;
+        }
+        &_photo_inst {
+            display: none;
+        }
+        &_photo_elipse22 {
+            display: none;
+        }
+        &_photo_elipse21 {
+            display: none;
+        }
+    }
+
+    .new {
+        max-height: 550px;
+        padding: 50px 16px 90px 16px;
+        &_tittle {
+            font-family: Advent Pro;
+            font-size: 24px;
+            padding-top: 0;
+        }
+        &_wrapper {
+            &_background {
+                display: none;
+            }
+            .new_list {
+                display: none;
+            }
+            .new_list_alive {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &_img {
+                    width: 280px;
+                }
+            }
+        }
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        max-height: 1000px;
+        padding: 0 16px;
+        &_header {
+            padding-top: 50px;
+            font-size: 12px;
+            letter-spacing: 1.2px;
+            text-align: center;
+        }
+        &_subheader {
+            font-family: Advent Pro;
+            font-size: 24px;
+            text-align: center;
+        }
+        &_clientPhoto {
+            display: none;
+        }
+        &_clientPhoto26 {
+            display: none;
+        }
+        &_clientPhoto28 {
+            display: none;
+        }
+        &_clientPhoto13 {
+            display: none;
+        }
+        &_clientPhoto25 {
+            position: relative;
+            z-index: 4;
+            width: 62px;
+            height: 69px;
+            top: 30px;
+            left: 86px;
+        }
+        &_ellipse15 {
+            display: none;
+        }
+        &_ellipse14 {
+            display: none;
+        }
+        &_ellipse18 {
+            display: none;
+        }
+        &_wave {
+            position: absolute;
+            z-index: 3;
+            top: 130px;
+            left: 190px;
+            z-index: 1;
+        }
+        &_vector {
+            display: none;
+        }
+        &_backtick {
+            position: absolute;
+            width: 51px;
+            height: 42px;
+            z-index: 3;
+            top: 1px;
+            left: 65px;
+        }
+        &_ellipse155 {
+            display: none;
+        }
+        &_ellipse144 {
+            display: none;
+        }
+        &_ellipse25 {
+            display: none;
+        }
+        &_lineWorm {
+            display: none;
+            
+        }
+        .message_wrapper {
+            position: relative;
+            top: 1px;
+            left: 1px;
+            padding: 0 0 0 0px;
+            .message_header {
+                display: flex;
+                padding-left: 100px;
+                justify-content: center;
+                // position: relative;
+                align-items: center;
+                flex-direction: column;
+                font-size: 14px;
+                gap: 1px;
+                &_general {
+                    font-size: 17px;
+                    letter-spacing: 0.9px;
+                    font-family: Advent Pro;
+                    margin: 5px 0;
+                }
+            }
+            .message_descr {
+                max-width: 228px;
+                margin: 0 auto;
+                &_wave {
+                    display: none;
+                }
+                &_first {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 14px;
+                    padding-top: 20px;
+
+                }
+                &_second {
+                    font-size: 14px;
+                }
+                &_buttons{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    footer {
+        max-height: 478px;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0 20px 1px;
+        .footer_wrapper {
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            .footer_links {
+                order: 2;
+            }
+        }
+        .footer_social {
+            order: 3;
+        }
+        .footer_logo {
+            display: flex;
+            order: 1;
+            padding: 0 0;
+        }
+        
+    }
+    
+    .creators {
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px;
+        &_header {
+            font-size: 11px;
+        }
+        &_developers {
+            padding-left: 10px;
+            font-size: 11px;
+        }
+        &_logo {
+            display: flex;
+            justify-content: end;
+            padding-left: 5px;
         }
     }
 }

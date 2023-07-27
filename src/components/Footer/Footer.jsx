@@ -18,12 +18,12 @@ const Footer = (props) => {
                     <img src={footerLogo} alt="" className="footer_logo" />
                     <a href="#" className="footer_links">Faq</a>
                     <a href="#" className="footer_links">CONTACT US</a>
-                    <div className="footer_social">
-                        <a className="footer_social_fb" href="#"><img src={fb} alt="" /></a>
-                        <a className="footer_social_inst" href="#"><img src={inst} alt="" /></a>
-                        <a className="footer_social_twit" href="#"><img src={twit} alt="" /></a>
-                        <a className="footer_social_utube" href="#"><img src={utube} alt="" /></a>
-                    </div>
+                <div className="footer_social">
+                    <a className="footer_social_fb" href="#"><img src={fb} alt="" /></a>
+                    <a className="footer_social_inst" href="#"><img src={inst} alt="" /></a>
+                    <a className="footer_social_twit" href="#"><img src={twit} alt="" /></a>
+                    <a className="footer_social_utube" href="#"><img src={utube} alt="" /></a>
+                </div>
                 </div> 
             </div>
         </footer>

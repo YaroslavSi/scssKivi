@@ -12,8 +12,8 @@ const New = (props) => {
                 <div className="new_tittle">What's new in blog?</div>
                 <div className="new_wrapper">
                     <img src={lineBg} alt="" className="new_wrapper_background" />
-                    <div className="new_list">
-                        <img src={newF} alt="" />
+                    <div className="new_list_alive">
+                        <img className="new_list_alive_img" src={newF} alt="" />
                         <div className="new_list_header">Why KIWI Eco Box?</div>
                         <img src={newLine} alt="" className="new_list_line" />
                         <div className="new_list_subheader">Get started by signing up for monthly subscription. We bring you an easy way to start your zero-waste journey</div>

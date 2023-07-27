@@ -11,14 +11,14 @@ import leafMonstr from '../../assets/images/box/Monstera leaf 1 - Plastic and me
 let box = (props) => {
     return (
         
-            <div className="box">
-                <div className="box_fly">
-                    <img className="box_fly_first" src={photoFlyF} alt="" />
-                    <img className="box_fly_second" src={photoFlyS} alt="" />
-                    <img className="box_fly_third" src={photoFlyT} alt="" />
-                    <img src={photoGen} alt="" className="box_fly_staticF" />
-                    <img src={photoGen} alt="" className="box_fly_staticS" />
-                </div>
+        <div className="box">
+            <div className="box_fly">
+                <img className="box_fly_first" src={photoFlyF} alt="" />
+                <img className="box_fly_second" src={photoFlyS} alt="" />
+                <img className="box_fly_third" src={photoFlyT} alt="" />
+                <img src={photoGen} alt="" className="box_fly_staticF" />
+                <img src={photoGen} alt="" className="box_fly_staticS" />
+            </div>
 
                     
 
