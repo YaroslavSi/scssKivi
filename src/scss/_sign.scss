@@ -3,6 +3,9 @@
     height: 839px;
     padding: 0 70px 0 350px;
     background: #F0F8F6;
+    &__collageAll {
+        display: none;
+    }
     &_tittle {
         padding-top: 100px;
         color: #01A3A4;

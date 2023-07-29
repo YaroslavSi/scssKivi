@@ -28,11 +28,10 @@ function App() {
       <Steps />
       <Post />
       <New />
-      {/* <Sign /> */}
+      <Sign />
       <Review />
       <Footer />
       <Creators />
-      
     </div> 
   );
 }
